@@ -436,7 +436,7 @@ final class DBManager {
                 return
             }
             
-            for (postDBId, postValues) in postData {
+            for (_, postValues) in postData {
                 guard let postValues = postValues as? [String: Any] else {
                     completion(nil)
                     return

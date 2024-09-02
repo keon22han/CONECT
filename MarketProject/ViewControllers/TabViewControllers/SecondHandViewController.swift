@@ -110,7 +110,7 @@ class SecondHandViewController: UIViewController {
 //            self.contentSearchButton.heightAnchor.constraint(equalTo: self.uploadPostButton.heightAnchor),
 //            self.contentSearchButton.widthAnchor.constraint(equalTo: self.contentSearchButton.heightAnchor),
             
-            self.contentScrollView.topAnchor.constraint(equalTo: self.latestButton.bottomAnchor),
+            self.contentScrollView.topAnchor.constraint(equalTo: self.latestButton.bottomAnchor, constant: 10),
             self.contentScrollView.leadingAnchor.constraint(equalTo: self.view.leadingAnchor),
             self.contentScrollView.trailingAnchor.constraint(equalTo: self.view.trailingAnchor),
             self.contentScrollView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor),
